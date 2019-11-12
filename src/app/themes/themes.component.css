@@ -1,0 +1,28 @@
+.contenu{
+    width: 100%;
+    text-align: center;
+transform-style: preserve-3d;
+
+}
+.theme{
+    width: 20%;
+    height: 300Px;
+    border-radius: 10px;
+    background-color: gold;
+    padding: 5px;
+    margin: 15px;
+    box-shadow: 5px 5px 5px 5px;
+    float: left;
+    text-align: center;
+}
+
+.theme >img{
+    width: 200px;
+    
+}
+.theme:hover{
+   
+    background-color: white;
+  
+  
+}

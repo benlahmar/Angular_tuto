@@ -1,0 +1,12 @@
+<div class="contnent">
+       
+        <h2> {{data.name}}</h2>
+        <ul>
+            <li *ngFor="let o of data.options">
+               <input id="{{o.id}}" type="checkbox" [(ngModel)]="o.selected" (change)="get(o)" /> {{o.name}} {{o.selected}}
+            </li>
+        </ul>
+        
+    
+    </div>
+    

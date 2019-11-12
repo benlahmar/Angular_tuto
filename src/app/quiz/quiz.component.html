@@ -1,0 +1,13 @@
+<div >
+    <h5>{{quiz.name}}</h5>
+<p>{{quiz.description}}</p>
+<div *ngFor="let q of quiz.questions; index as i">
+    <div *ngIf="i==step">
+<app-question [data]="q"></app-question>
+</div>
+</div>
+<button [hidden]="step==0" (click)="goTo(step-1)">Prev</button>
+
+<button [hidden]="step==9" (click)="goTo(step+1)" >Next</button>
+
+</div>

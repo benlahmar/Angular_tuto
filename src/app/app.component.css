@@ -1,0 +1,15 @@
+.contenu{
+
+}
+.quiz{
+
+    width: 40%;
+    padding: 10px;
+    margin: 5px;
+    background-color: rgba(23,234,66,0.5);
+}
+
+.quiz >img{
+    width: 250px;
+    border-radius: 100%;
+}

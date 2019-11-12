@@ -1,0 +1,22 @@
+/*.contnent{
+    perspective: 100px;
+    transform-style: preserve-3d;
+    perspective-origin: left; 
+}
+.question{
+    background-color: bisque;
+    width: 40%;
+    border-radius: 3px;
+    box-shadow: 5px 5px 5px 5px rgb(119, 115, 113);
+}
+
+.question:hover
+{
+    transition: all 3s;
+    transform: rotateY(120deg);
+    
+    
+    
+    
+
+}*/

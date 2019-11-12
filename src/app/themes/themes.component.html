@@ -1,0 +1,14 @@
+<div   >
+    <input type="text" [(ngModel)]="x"/>{{x}}
+    <h1>List of Topics</h1>
+
+<div *ngFor="let e of data  " class="contenu">
+<div class="theme">
+    <p>{{e.title}}</p>
+    <img [src]="e.logo" alt="image"/>
+    <p>{{e.description}}</p>
+    <a [href]="e.slug">go....!</a>
+</div>
+
+</div>
+</div>
